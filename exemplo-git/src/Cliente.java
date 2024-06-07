@@ -39,10 +39,18 @@ public class Cliente {
         this.email = email;
     }
 
+    public String exibirDados() {
+        return "\nNome: " + nome + "\nTelefone:" + telefone + "\nEmail: " + email;
+    }
+
     @Override
     public String toString() {
+<<<<<<< Updated upstream
         // TODO Auto-generated method stub
         return "Nome=" + nome +  ", telefone=" + telefone + ", email=" + email;
+=======
+        return "Nome=" + nome + ", telefone=" + telefone + ", email=" + email;
+>>>>>>> Stashed changes
     }
 
 }
