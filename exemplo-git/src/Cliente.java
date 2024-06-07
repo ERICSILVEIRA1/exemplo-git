@@ -45,12 +45,9 @@ public class Cliente {
 
     @Override
     public String toString() {
-<<<<<<< Updated upstream
-        // TODO Auto-generated method stub
+
         return "Nome=" + nome +  ", telefone=" + telefone + ", email=" + email;
-=======
-        return "Nome=" + nome + ", telefone=" + telefone + ", email=" + email;
->>>>>>> Stashed changes
+
     }
 
 }
